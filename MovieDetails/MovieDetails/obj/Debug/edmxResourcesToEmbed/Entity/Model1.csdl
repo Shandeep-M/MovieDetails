@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MovieModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Actor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sex" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="Bio" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MovieActorTables" Relationship="Self.FK_MovieActorTable_ToTable_1" FromRole="Actor" ToRole="MovieActorTable" />
+  </EntityType>
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ReleasedYear" Type="Int32" />
+    <Property Name="Plot" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Poster" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="MovieActorTables" Relationship="Self.FK_MovieActorTable_ToTable" FromRole="Movie" ToRole="MovieActorTable" />
+    <NavigationProperty Name="MovieProducerTables" Relationship="Self.FK_MovieProducerTable_ToTable" FromRole="Movie" ToRole="MovieProducerTable" />
+  </EntityType>
+  <EntityType Name="MovieActorTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MovieId" Type="Int32" Nullable="false" />
+    <Property Name="ActorId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Actor" Relationship="Self.FK_MovieActorTable_ToTable_1" FromRole="MovieActorTable" ToRole="Actor" />
+    <NavigationProperty Name="Movie" Relationship="Self.FK_MovieActorTable_ToTable" FromRole="MovieActorTable" ToRole="Movie" />
+  </EntityType>
+  <EntityType Name="MovieProducerTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MovieId" Type="Int32" Nullable="false" />
+    <Property Name="ProducerId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Movie" Relationship="Self.FK_MovieProducerTable_ToTable" FromRole="MovieProducerTable" ToRole="Movie" />
+    <NavigationProperty Name="Producer" Relationship="Self.FK_MovieProducerTable_ToTable_1" FromRole="MovieProducerTable" ToRole="Producer" />
+  </EntityType>
+  <EntityType Name="Producer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sex" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="Bio" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="MovieProducerTables" Relationship="Self.FK_MovieProducerTable_ToTable_1" FromRole="Producer" ToRole="MovieProducerTable" />
+  </EntityType>
+  <Association Name="FK_MovieActorTable_ToTable_1">
+    <End Role="Actor" Type="Self.Actor" Multiplicity="1" />
+    <End Role="MovieActorTable" Type="Self.MovieActorTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Actor">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MovieActorTable">
+        <PropertyRef Name="ActorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MovieActorTable_ToTable">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="1" />
+    <End Role="MovieActorTable" Type="Self.MovieActorTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MovieActorTable">
+        <PropertyRef Name="MovieId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MovieProducerTable_ToTable">
+    <End Role="Movie" Type="Self.Movie" Multiplicity="1" />
+    <End Role="MovieProducerTable" Type="Self.MovieProducerTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Movie">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MovieProducerTable">
+        <PropertyRef Name="MovieId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MovieProducerTable_ToTable_1">
+    <End Role="Producer" Type="Self.Producer" Multiplicity="1" />
+    <End Role="MovieProducerTable" Type="Self.MovieProducerTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MovieProducerTable">
+        <PropertyRef Name="ProducerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MovieEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Actors" EntityType="Self.Actor" />
+    <EntitySet Name="Movies" EntityType="Self.Movie" />
+    <EntitySet Name="MovieActorTables" EntityType="Self.MovieActorTable" />
+    <EntitySet Name="MovieProducerTables" EntityType="Self.MovieProducerTable" />
+    <EntitySet Name="Producers" EntityType="Self.Producer" />
+    <AssociationSet Name="FK_MovieActorTable_ToTable_1" Association="Self.FK_MovieActorTable_ToTable_1">
+      <End Role="Actor" EntitySet="Actors" />
+      <End Role="MovieActorTable" EntitySet="MovieActorTables" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MovieActorTable_ToTable" Association="Self.FK_MovieActorTable_ToTable">
+      <End Role="Movie" EntitySet="Movies" />
+      <End Role="MovieActorTable" EntitySet="MovieActorTables" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MovieProducerTable_ToTable" Association="Self.FK_MovieProducerTable_ToTable">
+      <End Role="Movie" EntitySet="Movies" />
+      <End Role="MovieProducerTable" EntitySet="MovieProducerTables" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MovieProducerTable_ToTable_1" Association="Self.FK_MovieProducerTable_ToTable_1">
+      <End Role="Producer" EntitySet="Producers" />
+      <End Role="MovieProducerTable" EntitySet="MovieProducerTables" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

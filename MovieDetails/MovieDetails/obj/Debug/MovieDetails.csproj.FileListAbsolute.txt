@@ -1,0 +1,215 @@
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\ApplicationInsights.config
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\csc.exe
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\csc.exe.config
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\csc.rsp
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\csi.exe
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\csi.rsp
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\System.AppContext.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\System.Collections.Immutable.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\System.IO.FileSystem.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\vbc.exe
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\vbc.exe.config
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\vbc.rsp
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\VBCSCompiler.exe
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\roslyn\VBCSCompiler.exe.config
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\MovieDetails.dll.config
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\MovieDetails.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\MovieDetails.pdb
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Antlr3.Runtime.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\EntityFramework.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\EntityFramework.SqlServer.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.Web.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.WindowsServer.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.ApplicationInsights.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.Web.Infrastructure.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Newtonsoft.Json.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.Helpers.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.Mvc.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.Optimization.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.Razor.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.WebPages.Deployment.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.WebPages.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.WebPages.Razor.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\WebGrease.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\EntityFramework.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\EntityFramework.SqlServer.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.Helpers.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.Mvc.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.Optimization.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.Razor.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.WebPages.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.WebPages.Deployment.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\System.Web.WebPages.Razor.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Antlr3.Runtime.pdb
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Newtonsoft.Json.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.ApplicationInsights.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.WindowsServer.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\bin\Microsoft.AI.Web.xml
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\obj\Debug\MovieDetails.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\obj\Debug\MovieDetails.dll
+c:\users\user\documents\visual studio 2017\Projects\MovieDetails\MovieDetails\obj\Debug\MovieDetails.pdb
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\obj\Debug\MovieDetails.csprojResolveAssemblyReference.cache
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\obj\Debug\MovieDetails.csproj.CoreCompileInputs.cache
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\obj\Debug\MovieDetails.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\obj\Debug\MovieDetails.pdb
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\ApplicationInsights.config
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\csc.exe
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\csc.exe.config
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\csc.rsp
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\csi.exe
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\csi.rsp
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\System.AppContext.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\vbc.exe
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\vbc.exe.config
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\vbc.rsp
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\VBCSCompiler.exe
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\MovieDetails.dll.config
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\MovieDetails.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\MovieDetails.pdb
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Antlr3.Runtime.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\EntityFramework.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\EntityFramework.SqlServer.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.Web.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.ApplicationInsights.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Newtonsoft.Json.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.Helpers.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.Mvc.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.Optimization.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.Razor.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.WebPages.Deployment.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.WebPages.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.WebPages.Razor.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\WebGrease.dll
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\EntityFramework.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\EntityFramework.SqlServer.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.Helpers.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.Mvc.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.Optimization.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.Razor.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.WebPages.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.WebPages.Deployment.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\System.Web.WebPages.Razor.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Antlr3.Runtime.pdb
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Newtonsoft.Json.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.ApplicationInsights.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\shandeep.m\Downloads\MovieDetails\MovieDetails\bin\Microsoft.AI.Web.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\ApplicationInsights.config
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\csc.exe
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\csc.exe.config
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\csc.rsp
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\csi.exe
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\csi.rsp
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\System.AppContext.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\System.Collections.Immutable.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\System.IO.FileSystem.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\System.Reflection.Metadata.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\vbc.exe
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\vbc.exe.config
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\vbc.rsp
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\VBCSCompiler.exe
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\roslyn\VBCSCompiler.exe.config
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\MovieDetails.dll.config
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\MovieDetails.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\MovieDetails.pdb
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Antlr3.Runtime.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\EntityFramework.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\EntityFramework.SqlServer.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.Agent.Intercept.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.DependencyCollector.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.Web.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.WindowsServer.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.ApplicationInsights.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.Web.Infrastructure.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Newtonsoft.Json.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.Helpers.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.Mvc.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.Optimization.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.Razor.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.WebPages.Deployment.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.WebPages.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.WebPages.Razor.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\WebGrease.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\EntityFramework.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\EntityFramework.SqlServer.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.Helpers.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.Mvc.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.Optimization.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.Razor.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.WebPages.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.WebPages.Deployment.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\System.Web.WebPages.Razor.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Antlr3.Runtime.pdb
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Newtonsoft.Json.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.ApplicationInsights.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.DependencyCollector.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.WindowsServer.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\bin\Microsoft.AI.Web.xml
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\obj\Debug\MovieDetails.csprojResolveAssemblyReference.cache
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\obj\Debug\MovieDetails.csproj.CoreCompileInputs.cache
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\obj\Debug\MovieDetails.dll
+F:\DeltaX_Assignment\MovieDetails\MovieDetails\obj\Debug\MovieDetails.pdb

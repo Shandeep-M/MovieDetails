@@ -1,0 +1,123 @@
+﻿@model IEnumerable<MovieDetails.Models.MoviesDto>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css"
+      rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/css/bootstrap-multiselect.css"
+      rel="stylesheet" type="text/css" />
+<script src="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/js/bootstrap-multiselect.js"
+        type="text/javascript"></script>
+<script type="text/javascript" src="https://www.appelsiini.net/download/jquery.jeditable.js"></script>
+<script>
+  
+    $(document.documentElement)
+        .on("click", "div.item-display", function (event) {
+            $(event.currentTarget)
+                .hide()
+                .next("div.item-field")
+                .show()
+                .find(":input:first")
+                .focus()
+                .select()
+                
+        })
+       
+        
+        .on("keypress", "div.item-field", function (event) {
+            if (event.keyCode != 13)
+                return;
+
+            event.preventDefault();
+
+            var $field = $(event.currentTarget),
+                $display = $field.prev("div.item-display");
+
+            $display.html($field.find(":input:first").val());
+            $display.show();
+            $field.hide();
+           
+        });
+
+    $(document).ready(function () {
+        $('.item-display').click(function () {
+            $('#submit').css('display', 'block');
+        });
+    });
+
+  
+</script>
+<h2>Movie List</h2>
+
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm())
+{    @Html.AntiForgeryToken()
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReleasedYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Producer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Actors)
+            </th>
+        </tr>
+
+        @for (var i = 0; i < Model.Count(); i++)
+        {
+        <tr>
+            <td style="display: none;">
+                <div>@Html.TextBoxFor(m => m.ToList()[i].Id) </div>
+            </td>            
+            <td>
+                <div class="item-display" style="display: block;">@Html.DisplayFor(m => m.ToList()[i].Name) </div>
+                <div class="item-field" style="display: none;">@Html.TextBoxFor(m => m.ToList()[i].Name) </div>
+            </td>
+            <td>
+                <div class="item-display" style="display: block;">@Html.DisplayFor(m => m.ToList()[i].ReleasedYear) </div>
+                <div class="item-field" style="display: none;">@Html.TextBoxFor(m => m.ToList()[i].ReleasedYear) </div>
+            </td>
+            <td>
+                <div class="item-display" style="display: block;">@Html.DisplayFor(m => m.ToList()[i].Producer) </div>
+                <div class="item-field" style="display: none;">@Html.DropDownListFor(m => m.ToList()[i].Producer, Model.ToList()[i].ProducerList, Model.ToList()[i].Producer)</div>
+            </td>
+            <td>
+                <div style="display: block;">                   
+                    @{
+                        string actors = null;
+                        foreach (var actor in Model.ToList()[i].Actors)
+                        {
+                            if (Model.ToList()[i].Actors.IndexOf(actor) == Model.ToList()[i].Actors.Count - 1)
+                            {
+                                actors += actor;
+                            }
+                            else
+                            {
+                                actors += actor + ",";
+                            }
+                        }
+                    }
+                    @Html.Raw(actors)
+                </div>              
+            </td>
+            
+        </tr>
+
+            }
+</table>
+    <input id="submit" type="submit" value="Save Changes" style="display: none;" />
+}
+<h6><b>*Click on an item to Edit</b></h6>
+<h6><b>*Press Enter to close the Text Box</b></h6>
+<h6><b>*Actor Column is not editable right now</b></h6>
+<p>
